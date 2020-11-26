@@ -1,0 +1,15 @@
+<h2>{{blog.title}}</h2>
+<br>
+{{blog.text}}
+<br>
+{{blog.date_created}}
+<br>
+{% for post in posts %}
+<br>
+{{post.title}}
+<br>
+<h5>{{post.text}}</h5>
+<br>
+{{post.date_created}}
+<br>
+{% endfor %}
